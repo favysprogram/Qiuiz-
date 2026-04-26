@@ -1,0 +1,54 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Quiz App</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+
+<!-- External CSS -->
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="quiz-card">
+
+<div id="quiz-screen">
+<div class="quiz-header">
+<span class="quiz-title">⚡ Quiz Time</span>
+<span class="progress-label" id="progress-label"></span>
+</div>
+
+<div class="progress-track">
+<div class="progress-fill" id="progress-fill"></div>
+</div>
+
+<p class="question-text" id="question-text"></p>
+
+<div class="answers-list" id="answers-list"></div>
+
+<button class="next-btn" id="next-btn">Next Question →</button>
+</div>
+
+<div class="results-screen" id="results-screen">
+<span class="results-emoji" id="results-emoji">🏆</span>
+<h2 class="results-heading" id="results-heading"></h2>
+<p class="results-sub">Here's how you did:</p>
+
+<div class="score-box">
+<div class="score-number" id="score-number"></div>
+<div class="score-label">correct answers</div>
+</div>
+
+<button class="restart-btn" id="restart-btn">↩ Try Again</button>
+</div>
+
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
